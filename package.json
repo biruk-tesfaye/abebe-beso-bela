@@ -20,8 +20,7 @@
     "test": "cross-env NODE_ENV=test NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
     "test:watch": "cross-env NODE_ENV=test NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests -o --watch --silent",
     "test:cov": "cross-env NODE_ENV=test NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests --coverage",
-    "nodemon": "nodemon dist/main.js -q --ext js --watch ./dist/**/*",
-    "dev": "cross-env NODE_ENV=development npm-run-all -p check:watch build:watch nodemon -l --silent",
+    "dev": "cross-env NODE_ENV=development npm-run-all -p check:watch build:watch -l --silent",
     "prod": "cross-env NODE_ENV=production npm-run-all -p check build test -l --silent",
     "start": "cross-env NODE_ENV=production node dist/main.js"
   },
