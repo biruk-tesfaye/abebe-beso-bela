@@ -1,0 +1,16 @@
+*.log
+.DS_Store
+
+node_modules
+dist
+*.tsbuildinfo
+generated
+coverage
+
+.env
+.env.*
+!.env.example
+
+.idea
+.vscode
+.vs

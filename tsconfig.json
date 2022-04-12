@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+
+    "rootDir": "src",
+    "outDir": "dist",
+    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
+
+    "pretty": true,
+
+    "composite": false,
+    "incremental": true,
+    "disableSourceOfProjectReferenceRedirect": true,
+
+    "target": "ES2020",
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "importsNotUsedAsValues": "error",
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": false,
+    "removeComments": false,
+
+    "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitOverride": true,
+
+    "skipLibCheck": true
+  },
+
+  "include": ["src"]
+}
