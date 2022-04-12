@@ -1,6 +1,8 @@
 # Abebe beso bela - Lorem ipsum for Amharic text
 
-Lorem ipsum for Amharic text. The project is named after a well-known Amharic sentence (አበበ በሶ በላ።) that is used to educate children how to construct sentences.
+A Node.js module for generating Amharic placeholder text.
+
+> The project is named after a well-known Amharic sentence (አበበ በሶ በላ።) that is used to educate children how to construct sentences.
 
 [Demo website](http://abebe-beso-bela.vercel.app/)
 

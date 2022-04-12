@@ -1,7 +1,7 @@
 {
   "name": "abebe-beso-bela",
   "version": "0.0.7",
-  "description": "Generates placeholder Amharic lorem ipsum text sections.",
+  "description": "A Node.js module for generating Amharic placeholder text.",
   "author": "Biruk H. <biruktesfayeve@gmail.com>",
   "repository": {
     "type": "git",
