@@ -1,6 +1,6 @@
 {
   "name": "abebe-beso-bela",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "private": false,
   "type": "module",
@@ -9,7 +9,6 @@
   },
   "types": "./dist/index.d.ts",
   "scripts": {
-    "postinstall": "husky install",
     "prepare": "cross-env NODE_ENV=production npm-run-all -s build -l --silent",
     "clean": "del-cli dist **/*.tsbuildinfo",
     "lint": "prettier --check src \"*.{json,js,cjs,ts}\" --ignore-path \".gitignore\"",
