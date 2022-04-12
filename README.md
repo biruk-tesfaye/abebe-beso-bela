@@ -1,14 +1,8 @@
-# node-starter
+# Abebe beso bela - Lorem ipsum for amharic text
 
-A starter Node.js (native ESM) package using SWC, TypeScript, Jest, Nodemon, Prettier, Husky, PNPM, and GitHub Actions CI.
+Lorem ipsum for Amharic text. The project is named after a well-known amharic sentence (አበበ በሶ በላ።) that is used to educate children how to construct sentences.
 
-## Starter Setup
-
-1. `pnpx degit kaleabmelkie/node-starter your-project-name`
-
-2. Configure the `name`, `version`, `license` and `private` fields in [package.json](package.json)
-
-3. Update this README to fit your project
+[Demo website](http://abebe-beso-bela.vercel.app/)
 
 ## Setup
 
@@ -31,4 +25,4 @@ pnpm start
 
 Made with &hearts; in Addis Ababa.
 
-MIT License &copy; 2022 [Kaleab S. Melkie](https://kaleabmelkie.com/).
+MIT License &copy; 2022 [Biruk H.](https://biruk.kelaltech.com/)
