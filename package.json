@@ -1,6 +1,12 @@
 {
   "name": "abebe-beso-bela",
-  "version": "0.0.6",
+  "version": "0.0.7",
+  "description": "Generates placeholder Amharic lorem ipsum text sections.",
+  "author": "Biruk H. <biruktesfayeve@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biruk-tesfaye/abebe-beso-bela"
+  },
   "license": "MIT",
   "private": false,
   "type": "module",
@@ -24,6 +30,18 @@
     "prod": "cross-env NODE_ENV=production npm-run-all -p check build test -l --silent",
     "start": "cross-env NODE_ENV=production node dist/main.js"
   },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "amharic",
+    "placeholder",
+    "text",
+    "dummy",
+    "abebe",
+    "abebe-beso-bela",
+    "beso",
+    "bela"
+  ],
   "prettier": {
     "semi": false,
     "singleQuote": true
