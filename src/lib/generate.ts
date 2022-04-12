@@ -7,34 +7,32 @@ type IGenerate = {
 }
 
 const MAX_WORDS_PER_SENTENCE = 15
-const MIN_WORDS_PER_SENTENCE = 7
+const MIN_WORDS_PER_SENTENCE = 5
 
 const MAX_SENTENCES_PER_PARAGRAPH = 10
 const MIN_SENTENCES_PER_PARAGRAPH = 3
 
-export async function generate(body: IGenerate = {}) {
+export function generate(body: IGenerate = {}) {
   const { amount = 1, scope = 'PARAGRAPHS', startWith = true } = body
   let generated = []
 
   //  if scope is paragraph then generated will contain amount of paragraphs
   if (scope === 'PARAGRAPHS') {
     for (let i = 0; i < amount; i++) {
-      await generated.push(`${generateParagraph()} `)
+      generated.push(`${generateParagraph()} `)
     }
   }
 
   // if scope is sentence then generated will contain amount of sentences
   if (scope === 'SENTENCES') {
     for (let i = 0; i < amount; i++) {
-      await generated.push(`${generateSentence()} `)
+      generated.push(`${generateSentence()} `)
     }
   }
   // if scope is word then generated will contain amount of words
   if (scope === 'WORDS') {
     for (let i = 0; i < amount; i++) {
-      await generated.push(
-        `${words[Math.floor(Math.random() * words.length)]} `
-      )
+      generated.push(`${words[Math.floor(Math.random() * words.length)]} `)
     }
   }
 
